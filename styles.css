@@ -1,0 +1,80 @@
+html 
+{
+    background-image: url(sah-atestat-background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.titlu {
+    font-family: Impact;
+    color: antiquewhite;
+    -webkit-text-stroke: 3px black;
+    font-size: 28px;
+    text-align: center;
+}
+.tabel1 {
+    overflow: hidden;
+    table-layout: fixed;
+    width: 60%;
+    height: 69px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color:white;
+}
+th
+{
+    border-color:black;
+    padding:0px;
+}
+.tabelcontinut
+{
+    text-align:left;
+    padding:20px;
+    vertical-align:top;
+    height:1000px;
+}
+
+.buton1, .buton2, .buton3 
+{
+    border: none;
+    background-color: white;
+    color: black;
+    transition-duration:0.3s;
+}
+.buton1:hover, .buton2:hover, .buton3:hover 
+{
+    background-color: lightgrey;
+    color: white;
+}
+.buton1 {padding: 6% 44.7%;}
+.buton2 {padding: 6% 41.7%;}
+.buton3 {padding: 6% 43.8%;}
+.tabelwiki 
+{
+    border: 3px solid black;
+}
+.tabelgol 
+{
+    text-align: left;
+    width: 95%;
+}
+.tabelplin1
+{
+    padding:10px;
+    text-align: left;
+    width: 75%;
+}
+.tabelplin2
+{
+    padding: 15px;
+    text-align: left;
+    width: 85%;
+}
+.tabelplin3 
+{
+    padding: 15px;
+    text-align: left;
+    width: 85%;
+}

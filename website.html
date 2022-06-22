@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Șahmania</title>
+
+</head>
+<body>
+    <div class="interfata">
+        <div class="titlu">
+            <h1>Șahmania</h1>
+        </div>
+        <table class="tabel1" border="2" cellspacing="0">
+            <tr>
+                <th class="celula1">
+                    <div class="1link">
+                        <button class=" buton1" onclick="window.location.href='website.html'"> Reguli </button>
+                    </div>
+                </th>
+                <th class="celula2">
+                    <div class="2link">
+                        <button class=" buton2" onclick="window.location.href='deschideri.html'"> Deschideri </button>
+                    </div>
+                </th>
+                <th class="celula3">
+                    <div class="3link">
+                        <button class=" buton3" onclick="window.location.href='maestrii.html'"> Maeștrii </button>
+                    </div>
+                </th>
+            </tr>
+            <td class="tabelcontinut" colspan="3">
+                <b><h3>Reguli generale</h3></b><br />
+                <div class="paragraf11">
+                    Regulile oficiale ale jocului sunt întreținute de Federația Internațională de Șah sau FIDE.
+                    Jocul se desfășoară pe tabla de șah. Aceasta are o formă pătrată și este împărțită în 8 linii și 8 coloane ce formează 64 de pătrate cu suprafețe egale, numite câmpuri colorate alternativ în alb și negru.
+                    La început fiecare jucător are 16 piese: 8 pioni, 2 turnuri (ture), 2 cai, 2 nebuni, un rege și o regină (damă).
+                    Unul dintre jucători controlează piesele albe iar celălalt piesele negre. Jucătorii mută pe rând, respectând anumite reguli; prima mutare (începutul partidei) revine jucătorului cu piese albe.
+                    Scopul jocului este obținerea matului. Acesta survine atunci când un rege este atacat și nu poate evita capturarea.
+                </div>
+                <img class="imagine11" src="tabladesah.png" width="400" height="400" />
+                <br />
+                <table class="tabelwiki" style="text-align:center; float:left;">
+                    <tbody>
+                        <tr class="tabelwikipiese">
+                            <th>Piesa</th>
+                            <th>Rege</th>
+                            <th>Regină</th>
+                            <th>Turn</th>
+                            <th>Nebun</th>
+                            <th>Cal</th>
+                            <th>Pion</th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Număr
+                            </th>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th>Valoare</th>
+                            <td>-</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br /><br /><br /><br />
+                <b><h3>Mutări</h3></b>
+                <div class="paragraf12">
+                    Fiecare piesă de șah are propriul mod de a fi mutată.
+                    Căsuțele marcate în diagramele de mai jos cu un pătrat rou reprezintă mișcările posibile ale piesei prezentate, doar dacă între poziția inițială și cea finală nu există alte piese (inclusiv piese proprii); calul nu este restricționat de această cerință - de altfel, pentru acesta pozițiile inițială și finală nu sunt de-a lungul unei direcții specifice.
+                    Dacă o piesă a adversarului se găsește pe poziția finală a mutării, atunci acea piesa este capturată.
+                    Singura excepție o face pionul care poate captura numai deplasându-se pe diagonală, în față.
+                </div>
+                <img class="imagine12" src="pion.png" width="500" height="500" />
+                <img class="imagine13" src="nebun.png" width="500" height="500" />
+                <img class="imagine14" src="cal.png" width="500" height="500" />
+                <img class="imagine15" src="tura.png" width="500" height="500" />
+                <img class="imagine16" src="regina.png" width="500" height="500" />
+                <img class="imagine17" src="rege.png" width="500" height="500" />
+                <br />
+
+                <div class="paragraf13">
+                    <b><h3>Mutări speciale</h3></b><br />
+                    <b>Rocada</b>-O singură dată în decursul unei partide, fiecărui rege i se permite o mutare specială numită rocadă.
+                    Rocada constă în mutarea regelui două câmpuri spre tură, apoi mutarea turei de partea opusă regelui.
+                    Rocada poate fi mică, când mutarea se face cu tura mai apropiată regelui, sau mare când mutarea este făcută cu tura mai îndepărtată.
+                    Această mutare specială este permisă doar când se îndeplinesc anumite condiții:
+                    <ul>
+                        <li>Niciuna din piesele implicate nu au fost mutate în prealabil;</li>
+                        <li>Nu trebuie să existe nici o altă piesă între cele două;</li>
+                        <li>Regele nu trebuie să fie în șah și nici să treacă peste câmpuri atacate de adversar. Ca și în orice altă mutare, regele nu are voie să intre în șah, după rocadă, în câmpul în care ajunge.</li>
+                    </ul>
+                </div>
+                <img class="imagine18" src="rocada2.png" width="500" height="500" />
+                <img class="imagine19" src="rocada1.png" width="500" height="500" />
+                <br />
+                <table class="tabelgol" border="0" cellspacing="0">
+                    <tr>
+                        <th>
+                            <p>Rocada mică</p>
+                        </th>
+                        <th>
+                            <p>Rocada mare</p>
+                        </th>
+                    </tr>
+                </table>
+                <br />
+                <div class="paragraf14">
+                    <b>En passant</b> (în trecere) este mișcarea specială în care un pion este capturat de un alt pion oponent, imediat după ce primul s-a deplasat două pătrate din poziția de start (până în dreptul pionului oponent) și care ar fi putut oricum să fie capturat dacă s-ar fi deplasat doar un pătrat.
+                    Poziția rezultată după această mutare e similară cu poziția mutării și capturii normale a pionului.
+                    Mutarea en passant trebuie făcută imediat după mutarea pionului, în caz contrar se pierde dreptul de a o mai face.
+                </div>
+                <img class="imagine110" src="enpassant1.png" width="500" height="500" />
+                <img class="imagine111" src="enpassant2.png" width="500" height="500" />
+                <br />
+                <div class="paragraf15">
+                    <b><h3>Promovarea</h3></b><br />
+                    Promovarea se realizează în momentul în care un pion avansează până la ultima linie accesibilă lui (a opta pentru alb, prima pentru negru).
+                    În acea poziție, jucătorul are obligația de a schimba imediat pionul cu o piesă la alegere dintre regină, tură, cal sau nebun de aceeași culoare.
+                    În majoritatea cazurilor pionul este promovat în regină, dar întrucât mutările calului nu pot fi efectuate de regină, promovarea în cal este folositoare în anumite situații, mai ales când se obține șah sau o furcă.
+                </div>
+            </td>
+        </table>
+    </div>
+</body>
+
+</html>
